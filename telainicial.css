@@ -80,11 +80,12 @@
     margin-top: 10px;
     width: auto;
     height: 300px;
-    transition: 0.6s ease;
+    transition: transform 500ms, filter 400ms;
 }
 
 .logo:hover {
     transform: scale(1.1);
+    filter: drop-shadow(2px 3px 3px rgb(30, 0, 42));
 }
 
 .missão {
@@ -124,12 +125,13 @@
 .container1-0-0 {
   width: 270px;
   height: auto;
-  transition: transform 1200ms;
+  transition: transform 700ms, filter 700ms;
   user-select: none;
 }
 
 .container1-0-0:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  filter: drop-shadow(2px 2px 5px black);
 }
 
 @keyframes carrossel {
