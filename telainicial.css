@@ -70,16 +70,22 @@
 }
 
 .logo1 {
+    max-width: 350px;
+    height: 430px;
+    background-color: rgb(203, 70, 255);
     text-align: center;
+    margin: 90px auto 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    border-radius: 50px;
 }
 
 .logo {
-    margin-top: 10px;
     width: auto;
-    height: 300px;
+    height: 200px;
     transition: transform 500ms, filter 400ms;
 }
 
@@ -88,19 +94,26 @@
     filter: drop-shadow(2px 3px 3px rgb(30, 0, 42));
 }
 
+.container-MVV{
+  display: flex;
+}
+
 .missão {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    color: rgb(255, 255, 255);
 }
 
 .missão1 {
+   color: rgb(255, 255, 255);
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 auto;
     max-width: 600px;
     padding-top: 10px;
+    padding: 10px;
 }
 
 .container1{
