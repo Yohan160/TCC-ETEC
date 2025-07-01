@@ -71,7 +71,7 @@
 
 .logo1 {
     max-width: 360px;
-    height: 400px;
+    height: 430px;
     background-color: rgb(203, 70, 255);
     text-align: center;
     margin: 90px auto 0;
@@ -95,6 +95,8 @@
 }
 
 .container-MVV{
+  margin-top: 30px;
+  margin-bottom: 90px;
   display: flex;
 }
 
