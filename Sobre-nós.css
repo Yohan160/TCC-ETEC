@@ -68,3 +68,65 @@
     height: auto;
     display: block;
 }
+
+.Container-MVV{
+  background:linear-gradient(rgb(115, 0, 177), rgba(204, 0, 255, 0.958), rgb(158, 0, 210)100%);
+  max-width: 100%;
+  height: 500px;
+  gap: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 15px rgb(23, 23, 23);
+  z-index: 1;
+}
+
+.Logo{
+  max-width: 200px;
+  height: auto;
+  transition: 400ms;
+}
+
+
+.Container-MVV H1{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container-MVV p{
+  color: #ffffff;
+  max-width: 300px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container-MVV1{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container-MVV1:hover> :not(:hover){
+filter: blur(2px);
+opacity: 1;
+}
+
+.Container-MVV1-0{
+  background: linear-gradient( rgb(212, 0, 255) 23%, rgb(238, 0, 250), rgb(242, 63, 255));
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  transition: 700ms ease-in-out;
+}
+
+.Container-MVV1-0:hover{
+  transform: translateY(-28px);
+}

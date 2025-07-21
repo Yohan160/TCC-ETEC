@@ -62,3 +62,46 @@
     border-radius: 21px;
     transform: scale(1.1);
 }
+
+.container1{
+  margin-top: 60px;
+  max-width: 100%;
+  height: 300px;
+  background-image: linear-gradient(120deg, rgb(159, 16, 255), rgb(182, 24, 255), rgb(226, 82, 255), rgb(177, 43, 255));
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.container1-0 {
+  max-width: 2300px;
+  display: flex;
+  gap: 200px;
+  animation: carrossel 30s ease-in-out infinite;
+}
+
+.container1-0-0 {
+  width: 270px;
+  height: auto;
+  transition: transform 700ms, filter 700ms;
+  user-select: none;
+}
+
+.container1-0-0:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(2px 2px 5px black);
+}
+
+@keyframes carrossel {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
