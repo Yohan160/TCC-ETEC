@@ -1,4 +1,7 @@
 @media(max-width:800px) {
+    body{
+        overflow: hidden;
+    }
   .nav-list{
     gap: 0.4rem !important;
   }
@@ -16,15 +19,13 @@
     width: 20%;
  }
    .Container1-0{
-    font-size: 6px;
+    font-size: 1.9vw;
   }
   .Container1-0 p{
-    max-width: 90%;
+    max-width: 99%;
   }
     .Container1-0 button{
-    width: 10em !important;
-    height: 1.2rem !important;
-    font-size: 0.3rem !important;
+        display: none;
   }
   .Container1-0-0{
     gap: 3vw;
