@@ -1,0 +1,39 @@
+@media(max-width:800px) {
+  .nav-list{
+    gap: 0.4rem !important;
+  }
+  .nav-item a{
+  font-size: 1.7vw !important;
+ }
+ .navbar{
+  height: 40px;
+ }
+ .logo0{
+    width: 35px;
+ }
+   .logo{
+    top: 7vh;
+    width: 20%;
+ }
+   .Container1-0{
+    font-size: 6px;
+  }
+  .Container1-0 p{
+    max-width: 90%;
+  }
+    .Container1-0 button{
+    width: 10em !important;
+    height: 1.2rem !important;
+    font-size: 0.3rem !important;
+  }
+  .Container1-0-0{
+    gap: 3vw;
+  }
+  .Container1-0-0 a{
+    font-size: 3.9vw;
+  }
+
+  .carrossel-pai, .container2-0-0{
+    display: none;
+  }
+}
