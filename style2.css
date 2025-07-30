@@ -3,7 +3,8 @@
         overflow: hidden;
     }
   .nav-list{
-    gap: 0.4rem !important;
+    display: none;
+    gap: 0.7rem !important;
   }
   .nav-item a{
   font-size: 1.7vw !important;
@@ -19,16 +20,17 @@
     width: 20%;
  }
    .Container1-0{
-    font-size: 1.9vw;
+    font-size: 2.3vw;
   }
   .Container1-0 p{
-    max-width: 99%;
+    margin-top: -1vh;
+    max-width: 90%;
   }
     .Container1-0 button{
-        display: none;
+    display: none;
   }
   .Container1-0-0{
-    gap: 3vw;
+    display: none;
   }
   .Container1-0-0 a{
     font-size: 3.9vw;
@@ -37,4 +39,32 @@
   .carrossel-pai, .container2-0-0{
     display: none;
   }
+
+  .Container2-0{
+    margin-left: 0vh;
+    margin-right: 0vh;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .Container2-0 ul{
+    margin: 1vh;
+    list-style: none;
+  }
+
+  .Container-3-0-0 h1{
+    font-size: 1rem;
+  }
+
+  .Container-3-0-0 p{
+    font-size: 0.6rem;
+  }
+
+  .Container-3-0-0 button{
+    display: none;
+  }
 }
+
+
+
