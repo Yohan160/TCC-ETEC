@@ -58,10 +58,10 @@
   }
 
   .Container-3-0-0 p{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
-  .Container-3-0-0 button{
+  .Container-3-0 button{
     display: none;
   }
 }
