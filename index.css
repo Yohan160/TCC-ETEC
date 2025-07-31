@@ -278,8 +278,9 @@ body{
 }
 
 .Container-3-0-0{
+  overflow: hidden;
   position: absolute;
-  height: 45.8vw;
+  height: 45.9vw;
   width: 45vw;
   display: flex;
   align-items: center;
@@ -417,7 +418,7 @@ body{
 
 .Container5 img{
   position: absolute;
-  max-width: 250vh;
+  max-width: 100%;
   z-index: -1;
 }
 
@@ -425,7 +426,7 @@ body{
   padding-top: 5vh;
   margin-top: 1vh;
   margin-left: 6vh;
-  max-width: 65vh;
+  max-width: 70vh;
   color: rgb(255, 255, 255);
   font-size:1.7rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -440,5 +441,5 @@ body{
 
 .Container5-0 p{
   margin-top: 1vh;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
