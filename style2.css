@@ -54,10 +54,16 @@
   }
 
   .Container-3-0-0 h1{
-    font-size: 1rem;
+    margin: 0.5vh;
+    font-size: 0.9rem;
+  }
+
+  .Container-3-0-0 hr{
+    margin-top: -1vh;
   }
 
   .Container-3-0-0 p{
+    margin-top: -0.4vh;
     font-size: 0.5rem;
   }
 
@@ -65,6 +71,3 @@
     display: none;
   }
 }
-
-
-

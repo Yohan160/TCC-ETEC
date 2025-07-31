@@ -406,16 +406,11 @@ body{
 }
 
 .Container4-0:hover> :not(:hover){
-  filter: blur(3px);
-  opacity: 10;
+  filter: blur(2px);
+  opacity: 1;
   transform: translateY(4px);
 }
 
-@media(max-width:900px){
-  Container5-0 p{
-    font-size: 2px;
-  }
-}
 .Container5-0 p{
   position: relative;
 }
@@ -428,16 +423,17 @@ body{
 
 .Container5-0{
   padding-top: 5vh;
-  margin: 1vh;
-  max-width: 40%;
-  color: white;
-  font-size:1rem;
+  margin-top: 1vh;
+  margin-left: 6vh;
+  max-width: 33%;
+  color: rgb(255, 255, 255);
+  font-size:1.7rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .Container5-0 h1{
-  font-size: 2rem;
-  background:linear-gradient(45deg, rgb(221, 0, 255), rgb(255, 2, 255));
+  font-size: 5rem;
+  background:linear-gradient(45deg, rgb(255, 0, 221), rgb(158, 39, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
